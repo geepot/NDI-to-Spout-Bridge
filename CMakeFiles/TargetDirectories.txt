@@ -1,0 +1,3 @@
+C:/Mac/Home/Documents/Git/NDI to Spout Bridge/CMakeFiles/SpoutToNDIBridge.dir
+C:/Mac/Home/Documents/Git/NDI to Spout Bridge/CMakeFiles/ALL_BUILD.dir
+C:/Mac/Home/Documents/Git/NDI to Spout Bridge/CMakeFiles/ZERO_CHECK.dir

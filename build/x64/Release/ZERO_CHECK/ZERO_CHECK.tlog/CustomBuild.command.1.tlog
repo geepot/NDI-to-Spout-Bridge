@@ -1,0 +1,10 @@
+^C:\MAC\HOME\DOCUMENTS\GIT\NDI TO SPOUT BRIDGE\BUILD\CMAKEFILES\09DE4F6925983237E6AE35329465C203\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Mac/Home/Documents/Git/NDI to Spout Bridge" "-BC:/Mac/Home/Documents/Git/NDI to Spout Bridge/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Mac/Home/Documents/Git/NDI to Spout Bridge/build/SpoutToNDIBridge.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

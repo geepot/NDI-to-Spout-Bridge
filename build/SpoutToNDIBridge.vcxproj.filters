@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\src\BridgeInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\src\ListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\src\DialogHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\src\resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B7BC7771-241E-3999-8989-1CB9657BC579}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

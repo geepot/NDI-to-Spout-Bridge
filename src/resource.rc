@@ -1,0 +1,51 @@
+#include <windows.h>
+#include "resource.h"
+
+IDC_NDISPOUTBRIDGE MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Create Spout to NDI Bridge",  IDM_CREATE_SPOUT_TO_NDI
+        MENUITEM "Create NDI to Spout Bridge",  IDM_CREATE_NDI_TO_SPOUT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_ABOUT
+    END
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 200, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About NDI to Spout Bridge"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "NDI to Spout and Spout to NDI Bridge",IDC_STATIC,14,14,150,8
+    LTEXT           "Version 1.0",IDC_STATIC,14,26,150,8
+    DEFPUSHBUTTON   "OK",IDOK,80,79,40,14,WS_GROUP
+END
+
+IDD_CREATE_BRIDGE DIALOGEX 0, 0, 350, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Bridge"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Bridge Name:",IDC_STATIC,10,10,100,12
+    EDITTEXT        IDC_BRIDGE_NAME,10,25,330,14,ES_AUTOHSCROLL
+    
+    LTEXT           "Select Source:",IDC_STATIC_SOURCE,10,45,100,12
+    LISTBOX         IDC_SOURCE_LIST,10,60,330,80,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP | WS_BORDER
+    
+    LTEXT           "Color Space:",IDC_STATIC,10,145,100,12
+    COMBOBOX        IDC_COLOR_SPACE,10,160,330,100,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    
+    DEFPUSHBUTTON   "Create",IDOK,230,180,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,290,180,50,14
+END
+
+STRINGTABLE
+BEGIN
+   IDC_NDISPOUTBRIDGE   "NDI to Spout and Spout to NDI Bridge"
+   IDS_APP_TITLE        "NDI to Spout and Spout to NDI Bridge"
+END

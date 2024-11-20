@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Mac\Home\Documents\Git\NDI to Spout Bridge\build\CMakeFiles\09de4f6925983237e6ae35329465c203\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E2E3A5F2-D9B2-3626-9D16-836CCD1E881E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
